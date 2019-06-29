@@ -1,0 +1,123 @@
+body {
+  background: darkgrey;
+  font-family: Verdana;
+}
+
+.contenedor{
+  width: 1080px;
+  margin: auto;
+  background: white;
+  background-image: url("../assets/FondoSinapsis.png");
+  color: blue;
+  padding: 20px 15px 50px 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor .titulo{
+font-family: Verdana;
+  font-size: 3.5ex;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedor a:visited{
+  color:black;
+}
+
+#pestanas {
+  float: top;
+  font-family: Verdana;
+  font-style: bold;
+  font-size: 3ex;
+  font-weight: normal;
+
+}
+
+#pestanas ul{
+  font-family: Verdana;
+  margin-left: -40px;
+}
+
+#pestanas li{
+  font-family: Verdana;
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  margin: 0px 2px -2px -0px;
+  background: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid dimgray;
+  border-bottom: dimgray;
+  padding: 0px 20px 0px 20px;
+}
+
+#pestanas a:link{
+  text-decoration: none;
+  font-family: Verdana;
+  color: black;
+}
+
+#contenidopestanas{
+  clear: both;
+  display: flex;
+  font-family: Verdana;
+  background: WhiteSmoke;
+  background-image: url("../assets/FondoSinapsis.png");
+  padding: 20px 0px 20px 20px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border: 1px solid dimgray;
+  width: 1025px;
+}
+
+.pestania a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  align-self: center;
+  padding: 0.9rem;
+  margin: 0.5rem;
+}
+.pestania a:hover {
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+.pestania{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: space-around;
+  width: 100vw;
+}
+
+.plataformasCore a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  align-self: center;
+  padding: 0.9rem;
+  margin: 0.5rem;
+}
+.plataformasCore a:hover {
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+.plataformasCore{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: space-around;
+  width: 100vw;
+  background-color: rgba(128, 204, 255, 0.1);
+}
