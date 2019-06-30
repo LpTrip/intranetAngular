@@ -1,0 +1,182 @@
+[
+  {
+    "group":"siebelComercio",
+    "content":
+      [{
+        "id":1,
+        "name":"Siebel para Comercios",
+        "url":"https://www.efectivosicomercio.com.ar/"
+      }]
+  },
+  {
+    "group":"ANSES",
+    "content":
+      [{
+        "id":2,
+        "name":"Consultas a ANSES",
+        "url":"https://www.anses.gob.ar/"
+      },{
+      "id":3,
+      "name":"Consulta de códigos de haberes y descuentos",
+      "url":"http://servicioswww.anses.gov.ar/ccpd/Consulta.aspx"
+      },{
+        "id":4,
+        "name":"Constancia de CUIL",
+        "url":"https://www.anses.gob.ar/constancia-de-cuil/"
+      }]
+    },
+  {
+    "group":"AFIP",
+    "content":
+    [{
+      "id":6,
+      "name":"Consulta de Aportes",
+      "url":"https://serviciosweb.afip.gob.ar/TRAMITES_CON_CLAVE_FISCAL/MISAPORTES/app/basica.aspx"
+    Consulta a Veraz,{
+      "id":7,https://online.org.veraz.com.ar/pls/consulta817/WORA2_ONLINE_WEB.HOMEPAGE?TIPO_INFORME=0
+      "name":"Trabajo en Blanco",
+      "url":"https://servicios1.afip.gov.ar/tramites_con_clave_fiscal/TREB/app/Consulta_CUI_SCF.aspx"
+    Consulta a PyP
+      "id":8https://www.pypdatos.com.ar/peype/partes_1/login.xhtmlurl":"https://juridicos.afip.gob.ar/bcraafip/deudores.htm"
+    }]
+  },
+  {
+    "group":"bureaus",
+    "content":
+    [{
+      "id":9,
+      "name":"Veraz",
+      "url":"https://online.org.veraz.com.ar/pls/consulta817/WORA2_ONLINE_WEB.HOMEPAGE?TIPO_INFORME=0"
+    },{
+      "id":10,
+      "name":"PyP",
+      "url":"https://www.pypdatos.com.ar/peype/partes_1/login.xhtml"
+    },{
+      "id":11,
+      "name":"Nosis",
+      "url":"https://www.nosis.com/es"
+    },{
+      "id":12,
+      "name":"Riesgo Net",
+      "url":"http://www.riesgonet.com/cfa/nueva.htm"
+    },{
+      "id":13,
+      "name":"Riesgo Net Validador",
+      "url":"http://validar.riesgonet.com/"
+    },{
+      "id":14,
+      "name":"Riesgo Net Contingencia",
+      "url":"http://www.riesgonet.com/servicios/informeonline/finforme.php?seccion=1"
+    }]
+  },
+  {
+    "group":"Seguros",
+    "content":
+    [{
+      "id":15,
+      "name":"Galeno Life Seguros",
+      "url":"https://www.galenoseguros.com.ar/productores/"
+    },{
+      "id":16,
+      "name":"Cardif",
+      "url":"https://socios.cardif.com.ar/"
+    }]
+  },
+  {
+    "group":"Contactabilidad",
+    "content":
+  [{
+    "id":17,
+    "name":"Consulta de Códigos Postales",
+    "url":"https://www.correoargentino.com.ar/formularios/cpa"
+  },{
+    "id":18,
+    "name":"Oca Delivery",
+    "url":"https://www1.oca.com.ar/Delivery2/Login/Login.aspx"
+  },{
+    "id":19,
+    "name":"Páginas Blancas - Guía telefónica",
+    "url":"http://www.paginasblancas.com.ar/"
+  }]
+},
+{
+  "group":"Carriers",
+  "content":
+  [{
+    "id":20,
+    "name":"VISA Home",
+    "url":"https://inetserv.visa.com.ar/visahome/login"
+  },{
+    "id":21,
+    "name":"Promociones VISA",
+    "url":"http://www.visa.com.ar/promociones.aspx"
+  },{
+    "id":22,
+    "name":"MasterConsultas",
+    "url":"https://www1.masterconsultas.com.ar/socios"
+  }]
+},
+{
+  "group":"Banca Online",
+  "content":
+  [{
+    "id":23,
+    "name":"Banco Galicia (Homebanking)",
+    "url":"https://onlinebanking.bancogalicia.com.ar/login"
+  },{
+    "id":24,
+    "name":"CitiDirect BE",
+    "url":"https://portal.citidirect.com/portalservices/forms/globallogin.pser"
+  },{
+    "id":25,
+    "name":"CitiDirect Online",
+    "url":"https://www.citidirectonline1.citidirect.citicorp.com/"
+  },{
+    "id":26,
+    "name":"Cotización de moneda extranjera",
+    "url":"http://www.bcra.gov.ar/"
+  }]
+},
+{
+  "group":"Prepagas",
+  "content":
+  [{
+    "id":27,
+    "name":"Web Galeno Prepaga",
+    "url":"https://www.e-galeno.com.ar/Pages/default.aspx"
+    },{
+    "id":28,
+    "name":"Swiss Medical (cartilla)",
+    "url":"https://www.swissmedical.com.ar/smgnewsite/prepaga/"
+    }]
+},
+{
+  "group":"Beneficios e institucionales",
+  "content":
+  [{
+    "id":29,
+    "name":"Informes de Seguridad e Higiene",
+    "url":"https://www.andino.net/efectivo-si"
+  },{
+    "id":31,
+    "name":"Mis Referidos",
+    "url":"http://referidosefectivosi.trabajando.com/"
+  },{
+    "id":32,
+    "name":"StarMeUp",
+    "url":"https://www.starmeup.com/home"
+  },{
+    "id":33,
+    "name":"Swiss Medical (cartilla)",
+    "url":"https://www.swissmedical.com.ar/smgnewsite/prepaga/"
+  },{
+    "id":34,
+    "name":"Web Staples - supply site",
+    "url":"http://www.staples.com.ar/"
+    "id":35,
+    },{
+    "name":"Web Institucional Efectivo Sí",
+    "url":"https://www.efectivosi.com.ar/"
+  }]
+}
+]
