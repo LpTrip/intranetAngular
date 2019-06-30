@@ -3,7 +3,7 @@ body {
   font-family: Verdana;
 }
 
-.contenedor{
+.container{
   width: 1080px;
   margin: auto;
   background: white;
@@ -14,7 +14,7 @@ body {
   box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
-.contenedor .titulo{
+.container .title{
 font-family: Verdana;
   font-size: 3.5ex;
   font-weight: bold;
@@ -22,11 +22,11 @@ font-family: Verdana;
   margin-bottom: 10px;
 }
 
-.contenedor a:visited{
+.container a:visited{
   color:black;
 }
 
-#pestanas {
+#tab {
   float: top;
   font-family: Verdana;
   font-style: bold;
@@ -35,12 +35,12 @@ font-family: Verdana;
 
 }
 
-#pestanas ul{
+#tab ul{
   font-family: Verdana;
   margin-left: -40px;
 }
 
-#pestanas li{
+#tab li{
   font-family: Verdana;
   list-style-type: none;
   float: left;
@@ -54,13 +54,13 @@ font-family: Verdana;
   padding: 0px 20px 0px 20px;
 }
 
-#pestanas a:link{
+#tab a:link{
   text-decoration: none;
   font-family: Verdana;
   color: black;
 }
 
-#contenidopestanas{
+#tabcontent{
   clear: both;
   display: flex;
   font-family: Verdana;
@@ -73,7 +73,7 @@ font-family: Verdana;
   width: 1025px;
 }
 
-.pestania a{
+.tab a{
   color: black;
   text-decoration: none;
   border: 1px solid black;
@@ -83,11 +83,11 @@ font-family: Verdana;
   padding: 0.9rem;
   margin: 0.5rem;
 }
-.pestania a:hover {
+.tab a:hover {
   background-color: rgba(102, 102, 102, 0.1);
 }
 
-.pestania{
+.tab{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
