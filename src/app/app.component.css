@@ -7,7 +7,7 @@ body {
   width: 1080px;
   margin: auto;
   background: white;
-  background-image: url("../assets/FondoSinapsis.png");
+  background-image: url("../assets/fondoSinapsis.png");
   color: blue;
   padding: 20px 15px 50px 50px;
   border-radius: 10px;
@@ -69,7 +69,7 @@ font-family: Verdana;
   display: flex;
   font-family: Verdana;
   background: WhiteSmoke;
-  background-image: url("../assets/FondoSinapsis.png");
+  background-image: url("../assets/fondoSinapsis.png");
   padding: 20px 0px 20px 20px;
   border-radius: 5px;
   border-top-left-radius: 0px;

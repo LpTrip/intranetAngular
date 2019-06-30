@@ -1,17 +1,21 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  myControl = new FormControl();
   title = 'intranetAngular';
   isTab1Active = true;
-  pages: [];
-  internal: [];
-  external: [];
+  pages: any[] = [];
+  internal: any[] = [];
+  external: any[] = [];
+
+
   constructor(private http: HttpClient){
 
   }

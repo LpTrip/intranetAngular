@@ -239,5 +239,101 @@
     "isinternal":false,
     "group":"Contactabilidad",
     "url":"https://www.correoargentino.com.ar/formularios/cpa"
+  },{
+    "name":"Oca Delivery",
+    "id":42,
+    "isinternal":false,
+    "group":"Contactabilidad",
+    "url":"https://www1.oca.com.ar/Delivery2/Login/Login.aspx"
+  },{
+    "name":"Páginas Blancas - Guía telefónica",
+    "id":43,
+    "isinternal":false,
+    "group":"Contactabilidad",
+    "url":"http://www.paginasblancas.com.ar/"
+  },{
+    "name":"VISA Home",
+    "id":44,
+    "isinternal":false,
+    "group":"Carriers",
+    "url":"https://inetserv.visa.com.ar/visahome/login"
+  },{
+    "name":"Promociones VISA",
+    "id":45,
+    "isinternal":false,
+    "group":"Carriers",
+    "url":"http://www.visa.com.ar/promociones.aspx"
+  },{
+    "name":"MasterConsultas",
+    "id":46,
+    "isinternal":false,
+    "group":"Carriers",
+    "url":"https://www1.masterconsultas.com.ar/socios"
+  },{
+    "name":"Banco Galicia (Homebanking)",
+    "id":47,
+    "isinternal":false,
+    "group":"Banca Online",
+    "url":"https://onlinebanking.bancogalicia.com.ar/login"
+  },{
+    "name":"CitiDirect BE",
+    "id":48,
+    "isinternal":false,
+    "group":"Banca Online",
+    "url":"https://portal.citidirect.com/portalservices/forms/globallogin.pser"
+  },{
+    "name":"CitiDirect Online",
+    "id":49,
+    "isinternal":false,
+    "group":"Banca Online",
+    "url":"https://www.citidirectonline1.citidirect.citicorp.com/"
+  },{
+    "name":"Cotización de moneda extranjera",
+    "id":50,
+    "isinternal":false,
+    "group":"Banca Online",
+    "url":"http://www.bcra.gov.ar/"
+  },{
+    "name":"Web Galeno Prepaga",
+    "id":51,
+    "isinternal":false,
+    "group":"Prepagas",
+    "url":"https://www.e-galeno.com.ar/Pages/default.aspx"
+  },{
+    "name":"Swiss Medical (cartilla)",
+    "id":52,
+    "isinternal":false,
+    "group":"Prepagas",
+    "url":"https://www.swissmedical.com.ar/smgnewsite/prepaga/"
+  },{
+    "name":"Informes de Seguridad e Higiene",
+    "id":53,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"https://www.andino.net/efectivo-si"
+  },{
+    "name":"Mis Referidos",
+    "id":54,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"http://referidosefectivosi.trabajando.com/"
+  },{
+    "name":"StarMeUp",
+    "id":55,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"https://www.starmeup.com/home"
+  },{
+    "name":"Web Staples - supply site",
+    "id":56,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"http://www.staples.com.ar/"
+  },{
+    "name":"Web Institucional Efectivo Sí",
+    "id":57,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"https://www.efectivosi.com.ar/"
   }
 ]
