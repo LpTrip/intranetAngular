@@ -26,6 +26,10 @@ font-family: Verdana;
   color:black;
 }
 
+.mat-tab-fix {
+    min-height:800px;
+  }
+
 #tab {
   float: top;
   font-family: Verdana;

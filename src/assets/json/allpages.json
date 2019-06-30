@@ -1,0 +1,243 @@
+[
+  {
+    "name":"Ayudame",
+    "id":1,
+    "isinternal":true,
+    "group":"Ayudame",
+    "url":"http://ayudame"
+  },{
+    "name":"Siebel CRM",
+    "id":2,
+    "isinternal":true,
+    "group":"Plataformas Core",
+    "url":"http://aixwebprd1/fins_esn/start.swe?"
+  },{
+    "name":"SmartOpen AnyWhere",
+    "id":3,
+    "isinternal":true,
+    "group":"Plataformas Core",
+    "url":"http://s001960/SmartOpen.NET/"
+  },{
+    "name":"Solicitud de Tarjetas de Crédito (Soltarje)",
+    "id":4,
+    "isinternal":true,
+    "group":"Plataformas Core",
+    "url":"http://soltarje"
+  },{
+    "name":"Sistema de Administración de Turnos (E-Flow)  ",
+    "id":5,
+    "isinternal":true,
+    "group":"Plataformas Core",
+    "url":"http://s001008/STE"
+  },{
+    "name":"Aula Efectiva",
+    "id":6,
+    "isinternal":true,
+    "group":"Gestión del Usuario",
+    "url":"http://s001933/"
+  },{
+    "name":"Conectados",
+    "id":7,
+    "isinternal":true,
+    "group":"Gestión del Usuario",
+    "url":"http://s001053/Conectados/conectados.aspx"
+  },{
+    "name":"WinGate (configuración de preguntas)",
+    "id":8,
+    "isinternal":true,
+    "group":"Gestión del Usuario",
+    "url":"http://s001053/wingatequestions"
+  },{
+    "name":"Mi Huella",
+    "id":10,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001053/anses/biometria.asp"
+  },{
+    "name":"Autoconsulta",
+    "id":11,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001053/autoconsultabo"
+  },{
+    "name":"QlikView",
+    "id":12,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001028/qlikview/index.htm"
+  },{
+    "name":"Impresión de preembozado",
+    "id":13,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://aixwasprd1:9080/ImpresionSolicitudPreembozado/login"
+  },{
+    "name":"Sitio de contactabilidad",
+    "id":14,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://aixprdmid:9080/ContactabilidadWeb/login"
+  },{
+    "name":"Registro de firmas Prosegur",
+    "id":15,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001053/juncadella/"
+  },{
+    "name":"Resumenes DocuWare",
+    "id":16,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001011/dwis5/scripts/dwis.pl"
+  },{
+    "name":"Movimiento de Legajos de Consumo",
+    "id":17,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001053/efolders"
+  },{
+    "name":"Control de Inventario",
+    "id":18,
+    "isinternal":true,
+    "group":"Operación de sucursales",
+    "url":"http://s001053/e-nventary/pages/default.aspx"
+  },{
+    "name":"Riesgo Operacional – Módulo de Administración",
+    "id":19,
+    "isinternal":true,
+    "group":"Riesgo Operacional",
+    "url":"http://s001053/riesgoope2009/admin"
+  },{
+    "name":"Prevención de lavado de dinero y financiamiento del terrorismo – Módulo de Administración",
+    "id":20,
+    "isinternal":true,
+    "group":"Riesgo Operacional",
+    "url":"http://s001053/lavado2009/v2011/admin/default.asp"
+  },{
+    "name":"Base  de Eventos RO",
+    "id":21,
+    "isinternal":true,
+    "group":"Riesgo Operacional",
+    "url":"http://s001067:8086/CORESS20/inicio.asp?opcion=IX"
+  },{
+    "name":"Aplicación Uniscreen",
+    "id":22,
+    "isinternal":true,
+    "group":"Varios",
+    "url":"http://s001049/SUPWeb/sinacceso.aspx3"
+  },{
+    "name":"Sistemas de Agencias Web",
+    "id":23,
+    "isinternal":true,
+    "group":"Varios",
+    "url":"http://s001168/cfaagencias/"
+  },{
+    "name":"Organismos públicos",
+    "id":24,
+    "isinternal":true,
+    "group":"Varios",
+    "url":"http://s001053/accesp.htm"
+  },{
+    "name":"Línea ética",
+    "id":25,
+    "isinternal":true,
+    "group":"Varios",
+    "url":"http://s001927/Intranet/LineaEtica.htm"
+  },{
+    "name":"Siebel para Comercios",
+    "id":26,
+    "isinternal":false,
+    "group":"Siebel Comercio",
+    "url":"https://www.efectivosicomercio.com.ar/"
+  },{
+    "name":"Consultas a ANSES",
+    "id":27,
+    "isinternal":false,
+    "group":"ANSES",
+    "url":"https://www.anses.gob.ar/"
+  },{
+    "name":"Consulta de códigos de haberes y descuentos",
+    "id":28,
+    "isinternal":false,
+    "group":"ANSES",
+    "url":"http://servicioswww.anses.gov.ar/ccpd/Consulta.aspx"
+  },{
+    "name":"Constancia de CUIL",
+    "id":29,
+    "isinternal":false,
+    "group":"ANSES",
+    "url":"https://www.anses.gob.ar/constancia-de-cuil/"
+  },{
+    "name":"Consulta de Aportes",
+    "id":30,
+    "isinternal":false,
+    "group":"AFIP",
+    "url":"https://serviciosweb.afip.gob.ar/TRAMITES_CON_CLAVE_FISCAL/MISAPORTES/app/basica.aspx"
+  },{
+    "name":"Trabajo en Blanco",
+    "id":31,
+    "isinternal":false,
+    "group":"AFIP",
+    "url":"https://servicios1.afip.gov.ar/tramites_con_clave_fiscal/TREB/app/Consulta_CUI_SCF.aspx"
+  },{
+    "name":"Consulta deudores de AFIP",
+    "id":32,
+    "isinternal":false,
+    "group":"AFIP",
+    "url":"https://juridicos.afip.gob.ar/bcraafip/deudores.htm"
+  },{
+    "name":"Veraz",
+    "id":33,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"https://online.org.veraz.com.ar/pls/consulta817/WORA2_ONLINE_WEB.HOMEPAGE?TIPO_INFORME=0"
+  },{
+    "name":"PyP",
+    "id":34,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"https://www.pypdatos.com.ar/peype/partes_1/login.xhtml"
+  },{
+    "name":"Nosis",
+    "id":35,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"https://www.nosis.com/es"
+  },{
+    "name":"Riesgo Net",
+    "id":36,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"http://www.riesgonet.com/cfa/nueva.htm"
+  },{
+    "name":"Riesgo Net Validador",
+    "id":37,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"http://validar.riesgonet.com/"
+  },{
+    "name":"Riesgo Net Contingencia",
+    "id":38,
+    "isinternal":false,
+    "group":"Bureaus",
+    "url":"http://www.riesgonet.com/servicios/informeonline/finforme.php?seccion=1"
+  },{
+    "name":"Galeno Life Seguros",
+    "id":39,
+    "isinternal":false,
+    "group":"Seguros",
+    "url":"https://www.galenoseguros.com.ar/productores/"
+  },{
+    "name":"Cardif",
+    "id":40,
+    "isinternal":false,
+    "group":"Seguros",
+    "url":"https://socios.cardif.com.ar/"
+  },{
+    "name":"Consulta de Códigos Postales",
+    "id":41,
+    "isinternal":false,
+    "group":"Contactabilidad",
+    "url":"https://www.correoargentino.com.ar/formularios/cpa"
+  }
+]
