@@ -7,8 +7,7 @@ import { FormControl } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  myControl = new FormControl();
+export class AppComponent {
   title = 'intranetAngular';
   isTab1Active = true;
   pages: any[] = [];
