@@ -32,12 +32,14 @@
       "id":6,
       "name":"Consulta de Aportes",
       "url":"https://serviciosweb.afip.gob.ar/TRAMITES_CON_CLAVE_FISCAL/MISAPORTES/app/basica.aspx"
-    Consulta a Veraz,{
-      "id":7,https://online.org.veraz.com.ar/pls/consulta817/WORA2_ONLINE_WEB.HOMEPAGE?TIPO_INFORME=0
+    },{
+      "id":7,
       "name":"Trabajo en Blanco",
       "url":"https://servicios1.afip.gov.ar/tramites_con_clave_fiscal/TREB/app/Consulta_CUI_SCF.aspx"
-    Consulta a PyP
-      "id":8https://www.pypdatos.com.ar/peype/partes_1/login.xhtmlurl":"https://juridicos.afip.gob.ar/bcraafip/deudores.htm"
+    },{
+      "id":8,
+      "name":"Consulta deudores de AFIP",
+      "url":"https://juridicos.afip.gob.ar/bcraafip/deudores.htm"
     }]
   },
   {
@@ -173,8 +175,8 @@
     "id":34,
     "name":"Web Staples - supply site",
     "url":"http://www.staples.com.ar/"
-    "id":35,
     },{
+    "id":35,
     "name":"Web Institucional Efectivo Sí",
     "url":"https://www.efectivosi.com.ar/"
   }]
