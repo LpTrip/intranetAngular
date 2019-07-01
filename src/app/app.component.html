@@ -1,29 +1,36 @@
 <div class="container mat-tab-fix">
-
       <a href="https://www.efectivosi.com.ar/" target="_blank"><img src="../assets/logoEfectivoSi.png"></a>
-
       <br>
       <br>
-
       <a href="http://sitio:8089/" target="_blank"><img src="../assets/sitioEfectivo.png"></a>
       <a href="http://ayudame" target="_blank"><img src="../assets/ayudame.png"></a>
       <a href="http://s001053/Conectados/conectados.aspx" target="_blank"><img src="../assets/conectados.png"></a>
-
-    <mat-tab-group>
-        <mat-tab label="Páginas Internas">
-            <mat-list>
-                <mat-list-item *ngFor="let p of internal">
-                    <button mat-button (click)="openLink(p.url)">{{p.name}}</button>
-                </mat-list-item>
-            </mat-list>
-        </mat-tab>
-        <mat-tab label="Páginas Externas">
-            <mat-list>
-                <mat-list-item *ngFor="let p of external">
-                    <button mat-button (click)="openLink(p.url)">{{p.name}}</button>
-                </mat-list-item>
-            </mat-list>
-        </mat-tab>
-    </mat-tab-group>
-
+      <br>
+      <br>
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input type="text" placeholder="Buscar..." aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option (onSelectionChange)="openLink(option.url)" *ngFor="let option of filteredOptions | async" [value]="option.name">
+              {{option.name}}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </form>
+      <mat-tab-group>
+          <mat-tab label="Páginas Internas">
+              <mat-list>
+                  <mat-list-item *ngFor="let p of internal">
+                      <button mat-button (click)="openLink(p.url)">{{p.name}}</button>
+                  </mat-list-item>
+              </mat-list>
+          </mat-tab>
+          <mat-tab label="Páginas Externas">
+              <mat-list>
+                  <mat-list-item *ngFor="let p of external">
+                      <button mat-button (click)="openLink(p.url)">{{p.name}}</button>
+                  </mat-list-item>
+              </mat-list>
+          </mat-tab>
+      </mat-tab-group>
 </div>
