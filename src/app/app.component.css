@@ -1,6 +1,6 @@
 body {
   background: darkgrey;
-  font-family: Verdana;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -14,98 +14,6 @@ body {
   box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
-.container .title{
-font-family: Verdana;
-  font-size: 3.5ex;
-  font-weight: bold;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.container a:visited{
-  color:black;
-}
-
-.mat-tab-fix {
-    min-height:800px;
-  }
-
-#tab {
-  float: top;
-  font-family: Verdana;
-  font-style: bold;
-  font-size: 3ex;
-  font-weight: normal;
-
-}
-
-#tab ul{
-  font-family: Verdana;
-  margin-left: -40px;
-}
-
-#tab li{
-  font-family: Verdana;
-  list-style-type: none;
-  float: left;
-  text-align: center;
-  margin: 0px 2px -2px -0px;
-  background: white;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border: 1px solid dimgray;
-  border-bottom: dimgray;
-  padding: 0px 20px 0px 20px;
-}
-
-#tab a:link{
-  text-decoration: none;
-  font-family: Verdana;
-  color: black;
-}
-
-#tabcontent{
-  clear: both;
-  display: flex;
-  font-family: Verdana;
-  background: WhiteSmoke;
-  background-image: url("../assets/fondoSinapsis.png");
-  padding: 20px 0px 20px 20px;
-  border-radius: 5px;
-  border-top-left-radius: 0px;
-  border: 1px solid dimgray;
-  width: 1025px;
-}
-
-.tab a{
-  color: black;
-  text-decoration: none;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  display: flex;
-  align-self: center;
-  padding: 0.9rem;
-  margin: 0.5rem;
-}
-.tab a:hover {
-  background-color: rgba(102, 102, 102, 0.1);
-}
-
-.tab{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-content: space-around;
-  width: 100vw;
-}
-
-.tabActive{
-  background-color: WhiteSmoke !important;
-  padding-bottom: 2px !important;
-  }
-
-.mat-button{
-  font-family: 'Roboto', sans-serif !important;
+.mat-button:hover{
+  background: whitesmoke;
 }

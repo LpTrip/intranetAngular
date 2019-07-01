@@ -1,11 +1,5 @@
 [
   {
-    "name":"Ayudame",
-    "id":1,
-    "isinternal":true,
-    "group":"Ayudame",
-    "url":"http://ayudame"
-  },{
     "name":"Siebel CRM",
     "id":2,
     "isinternal":true,
@@ -24,7 +18,7 @@
     "group":"Plataformas Core",
     "url":"http://soltarje"
   },{
-    "name":"Sistema de Administración de Turnos (E-Flow)  ",
+    "name":"Sistema de Administración de Turnos (E-Flow)",
     "id":5,
     "isinternal":true,
     "group":"Plataformas Core",
@@ -35,12 +29,6 @@
     "isinternal":true,
     "group":"Gestión del Usuario",
     "url":"http://s001933/"
-  },{
-    "name":"Conectados",
-    "id":7,
-    "isinternal":true,
-    "group":"Gestión del Usuario",
-    "url":"http://s001053/Conectados/conectados.aspx"
   },{
     "name":"WinGate (configuración de preguntas)",
     "id":8,
@@ -174,7 +162,7 @@
     "group":"AFIP",
     "url":"https://serviciosweb.afip.gob.ar/TRAMITES_CON_CLAVE_FISCAL/MISAPORTES/app/basica.aspx"
   },{
-    "name":"Trabajo en Blanco",
+    "name":"AFIP - Trabajo en Blanco",
     "id":31,
     "isinternal":false,
     "group":"AFIP",
@@ -335,5 +323,11 @@
     "isinternal":false,
     "group":"Beneficios e institucionales",
     "url":"https://www.efectivosi.com.ar/"
+  },{
+    "name":"Efectivo Sí Online Banking",
+    "id":58,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"https://efectivosionline.efectivosi.com.ar/"
   }
 ]
