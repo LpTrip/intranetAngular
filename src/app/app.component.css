@@ -4,16 +4,38 @@ body {
 }
 
 .container{
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  font-size: 14px;
   width: 1080px;
   margin: auto;
   background: white;
   background-image: url("../assets/fondoSinapsis.png");
-  color: blue;
   padding: 20px 15px 50px 50px;
   border-radius: 10px;
   box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
-.mat-button:hover{
-  background: whitesmoke;
+.mat-button{
+    font-family: inherit;
 }
+
+.mat-button:hover{
+    background: whitesmoke;
+}
+
+.mat-form-field{
+    font-family: inherit;
+}
+
+.mat-tab-fix{
+min-height:800px;
+}
+
+.right{
+    position: absolute;
+    width: 365px;
+    right: 60px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }

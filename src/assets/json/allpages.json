@@ -329,5 +329,11 @@
     "isinternal":false,
     "group":"Beneficios e institucionales",
     "url":"https://efectivosionline.efectivosi.com.ar/"
+  },{
+    "name":"Cotizador Seguro Automotor GALENO (Beneficio Efectivo Sí)",
+    "id":59,
+    "isinternal":false,
+    "group":"Beneficios e institucionales",
+    "url":"http://200.70.57.114/CotizadorEmpleados/"
   }
 ]
