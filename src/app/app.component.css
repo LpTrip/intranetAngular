@@ -1,41 +1,56 @@
-body {
-  background: darkgrey;
-  font-family: 'Roboto', sans-serif;
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ src: url('../assets/fonts/roboto.woff2') format('woff2');
 }
 
-.container{
-  font-family: 'Roboto', sans-serif;
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+src: url('../assets/fonts/roboto-ext.woff2') format('woff2');
+}
+
+@font-face {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ src: url('../assets/fonts/roboto-bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: url('../assets/fonts/roboto-bold-ext.woff2') format('woff2');
+}
+
+.container {
+  font-family: 'Roboto', sans-serif !important;
   color: gray;
   font-size: 14px;
   width: 1080px;
   margin: auto;
   background: white;
-  background-image: url("../assets/fondoSinapsis.png");
-  padding: 20px 15px 50px 50px;
+  background-image: url("../assets/images/fondoSinapsis.png");
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
-.mat-button{
-    font-family: inherit;
+.row {
+  padding-left: 30px;
 }
 
-.mat-button:hover{
+.col-lg-12 {
+  padding-left: 0px;
+}
+
+.mat-button:hover {
     background: whitesmoke;
 }
 
-.mat-form-field{
-    font-family: inherit;
+.mat-tab-fix {
+  min-height:800px;
 }
-
-.mat-tab-fix{
-min-height:800px;
-}
-
-.right{
-    position: absolute;
-    width: 365px;
-    right: 60px;
-    border: 3px solid #73AD21;
-    padding: 10px;
-  }

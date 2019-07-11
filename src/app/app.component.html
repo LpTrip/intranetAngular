@@ -1,19 +1,21 @@
 <div class="container mat-tab-fix">
+  <div class="row">
+    <div class="col-lg-6">
+      <a title="Web Institucional Efectivo Sí" href="https://www.efectivosi.com.ar/" target="_blank"><img src="../assets/images/logoEfectivoSi.png" alt="Web Institucional Efectivo Sí"></a>
+    </div>
+    <div class="col-lg-6">
+      <img src="../assets/images/sinapsisLoading.png" alt="Sinapsis Loading">
+      <p>Estamos trabajando en una nueva forma de hacer Sinapsis</p>
+    </div>
+  </div>
 
-      <a title="Web Institucional Efectivo Sí" href="https://www.efectivosi.com.ar/" target="_blank"><img src="../assets/logoEfectivoSi.png" alt="Web Institucional Efectivo Sí"></a>
-      <img src="../assets/sinapsisLoading.png" alt="Sinapsis Loading">
-      Estamos trabajando en una nueva forma de hacer Sinapsis
+  <div class="row">
+      <a title="Sitio Efectivo" href="http://sitio:8089/" target="_blank"><img src="../assets/images/sitioEfectivo.png" alt="Sitio Efectivo"></a>
+      <a title="Ayudame" href="http://ayudame" target="_blank"><img src="../assets/images/ayudame.png" alt="Ayudame"></a>
+      <a title="Conectados" href="http://s001053/Conectados/conectados.aspx" target="_blank" alt="Conectados"><img src="../assets/images/conectados copia.png"></a>
+  </div>
 
-      <br>
-      <br>
-
-      <a title="Sitio Efectivo" href="http://sitio:8089/" target="_blank"><img src="../assets/sitioEfectivo.png" alt="Sitio Efectivo"></a>
-      <a title="Ayudame" href="http://ayudame" target="_blank"><img src="../assets/ayudame.png" alt="Ayudame"></a>
-      <a title="Conectados" href="http://s001053/Conectados/conectados.aspx" target="_blank" alt="Conectados"><img src="../assets/conectados.png"></a>
-
-      <br>
-      <br>
-
+  <div class="row">
       <mat-form-field>
           <input type="text" placeholder="Buscar..." aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
           <mat-autocomplete #auto="matAutocomplete">
@@ -22,7 +24,10 @@
             </mat-option>
           </mat-autocomplete>
       </mat-form-field>
+  </div>
 
+  <div class="row">
+    <div class="col-lg-12">
       <mat-tab-group>
           <mat-tab label="Páginas Internas">
               <mat-list>
@@ -34,9 +39,11 @@
           <mat-tab label="Páginas Externas">
               <mat-list>
                   <mat-list-item *ngFor="let p of external">
-                      <button mat-button (click)="openLink(p.url)">{{p.name}}</button>
+                      <button mat-button (click)="openLink(p.url)"> {{p.name}}</button>
                   </mat-list-item>
               </mat-list>
           </mat-tab>
       </mat-tab-group>
+    </div>
+  </div>
 </div>
