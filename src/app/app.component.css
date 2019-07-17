@@ -48,9 +48,20 @@ src: url('../assets/fonts/roboto-bold-ext.woff2') format('woff2');
 }
 
 .mat-button:hover {
-    background: whitesmoke;
+  background: whitesmoke;
 }
 
 .mat-tab-fix {
   min-height:800px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: 900;
+  color: navy;
+}
+
+.logo {
+  width: 300px;
+  height: 225px;
 }

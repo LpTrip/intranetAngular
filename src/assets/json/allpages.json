@@ -335,5 +335,11 @@
     "isinternal":false,
     "group":"Beneficios e institucionales",
     "url":"http://200.70.57.114/CotizadorEmpleados/"
+  },{
+    "name":"Cotizador Seguro Automotor GALENO (Beneficio Efectivo Sí)",
+    "id":60,
+    "isinternal":true,
+    "group":"Beneficios e institucionales",
+    "url":"http://200.70.57.114/CotizadorEmpleados/ "
   }
 ]
